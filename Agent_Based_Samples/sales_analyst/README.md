@@ -11,30 +11,38 @@ https://github.com/user-attachments/assets/4a03cbd5-0fdc-4191-88b2-335da9ef8e1b
 
 </div>
 
+<strong>IMPORTANT NOTE</strong>: Starter templates, instructions, code samples and resources in this Agent_Based_Samples file (“samples”) are designed to assist in accelerating development of agents for specific scenarios. It is important that you review all provided resources and carefully test Agent behavior in the context of your use case: [Learn more](https://learn.microsoft.com/en-us/azure/ai-foundry/agents/overview?view=foundry-classic).  
+ 
+Certain Agent offerings may be subject to legal and regulatory requirements, may require licenses, or may not be suitable for all industries, scenarios, or use cases. By using any sample, you are acknowledging that Agents or other output created using that sample are solely your responsibility, and that you will comply with all applicable laws, regulations, and relevant safety standards, terms of service, and codes of conduct. 
+
+ 
+
+<strong>WARNING</strong>: Sales Analyst is intended to be used only with publicly available data or your own data. Not intended for use with any confidential third-party data. 
+
 ## 🚀 Overview
 
-This Azure AI Foundry Agent empowers business leaders by providing powerful insights for decision-making and helping improve sales efficiency.
+This Azure AI Foundry Agent sample empowers business leaders by helping generate powerful insights for decision-making and helping improve sales efficiency.
 
-This AI agent is built using Semantic Kernel and enabled with Enterprise Security: featuring Azure AI Foundry, Grounding with Bing Search & the Azure Databricks connector.This also showcases Responsible AI using Azure AI Content Safety.
+This sample is built using Semantic Kernel and can be enabled with Enterprise Security when used with: featuring Azure AI Foundry, Grounding with Bing Search and Azure Databricks. This sample also showcases how to incorporate Responsible AI practices into agents you build by using Azure AI Content Safety.
 
 ## 🔍 Business Value
 
 - **Insights for Decision-Making**: Analyzing Sales and Revenue data to provide actionable insights- helping business leaders make informed decisions which drive success.
-- **Improving Retail Efficiency**: AI agent with the added power of Bing- Use internet insights to identify key sales trends and provide sales improvement strategies- focused on enhancing retail efficiency and sales. Contributing significantly to overall business success and customer satisfaction.
+- **Improving Retail Efficiency**: Build AI agents with the added power of Bing- Use internet insights to identify key sales trends and provide sales improvement strategies- focused on enhancing retail efficiency and sales. Contribute significantly to overall business success and customer satisfaction.
 - **Operational Excellence**: Analyze operational data and validate with key sectoral trends to provide opportunities to minimize costs and maximize productivity in business operations.
 
 ## 💼 Core Function
 
 - **Trend Summarization of Business KPIs**
-  - Granularity of Data: Users can request trend summaries at various levels of granularity, such as weekly, monthly, quarterly, or yearly—based on their needs.
+  - Granularity of Data: Users can use agents built with this sample to request trend summaries at various levels of granularity, such as weekly, monthly, quarterly, or yearly—based on their needs.
   - Sales Data Trends:  The trend summarization feature provides users with insights into various sales figures (like product SKUs, units sold, pricing, sales, margin & other details) across multiple geographies & regions.
 
 - **Prescriptive Analytics and Internet Insights**
-  - Analyzing Trend Data: The AI agent analyzes trend data alongside historical figures to understand performance changes over time.
+  - Analyzing Trend Data: AI agents built with this sample can  analyze trend data alongside historical figures to understand performance changes over time.
   - Internet Insights powered by Bing: Grounding with Bing search helps identify external factors influencing changes in key performance indicators (KPIs) for your business.
 
 - **Sales & Operational Improvement Recommendations**
-  - Identify Improvement Opportunities: The AI agent analyses sales and revenue data- collaborates it with internet insights and geographical trends- to provide actionable improvement strategies tailored for each trend.
+  - Identify Improvement Opportunities: The AI agents built with this sample analyze sales and revenue data- combined with internet insights and geographical trends- to provide actionable improvement strategies tailored for each trend.
   - Foresee Expected Outcomes: Analyze and anticipate benefits from each of the proposed actions.
 
 ## 🎥 Demo Video
@@ -88,7 +96,7 @@ Ready to deploy Sales Analyst? Follow our comprehensive [Setup Guide](src/soluti
 - [Azure AI Foundry](https://ai.azure.com/)
 
 ## Sample Datasets
-Our solution uses role-based access control (RBAC) to ensure that users have the appropriate level of access to data.
+The sample incorporates role-based access control (RBAC) to help you ensure that users have the appropriate level of access to data.
 Let's introduce two of our demo user personas: Global Sales Manager (GSM) and Country Sales Manager (CSM):
 
 Global Sales Manager (GSM):
